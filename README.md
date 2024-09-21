@@ -25,7 +25,7 @@ Output Layer: The output layer consists of 10 neurons, corresponding to the 10 p
 
  The neural network was trained using supervised learning, where the goal was to minimize the difference between the predicted outputs and the actual labels (digits). The key aspects of the training process included:
 
-** **Forward Propagation:** During forward propagation, the input data was passed through the network layers, producing predictions. These predictions were then compared to the actual labels to compute the error (or loss).
-** **Backpropagation:** Once the error was calculated, backpropagation was used to update the network’s weights. This process calculates how much each weight contributed to the error and adjusts it to reduce the error in future predictions.
-** **Optimization:** The weights were updated using gradient descent, an optimization algorithm that aims to minimize the loss function by iteratively adjusting the weights in the direction that reduces the error.
+- **Forward Propagation:** During forward propagation, the input data was passed through the network layers, producing predictions. These predictions were then compared to the actual labels to compute the error (or loss).
+- **Backpropagation:** Once the error was calculated, backpropagation was used to update the network’s weights. This process calculates how much each weight contributed to the error and adjusts it to reduce the error in future predictions.
+- **Optimization:** The weights were updated using gradient descent, an optimization algorithm that aims to minimize the loss function by iteratively adjusting the weights in the direction that reduces the error.
 
