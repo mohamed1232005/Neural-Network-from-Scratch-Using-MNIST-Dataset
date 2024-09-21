@@ -1,10 +1,10 @@
 # Neural-Network-from-Scratch-Using-MNIST-Dataset
 
-## Project Overview:
+1) ## Project Overview:
 
 This project focuses on building a neural network from scratch, aiming to classify handwritten digits from the MNIST dataset. Rather than using high-level machine learning libraries such as TensorFlow or PyTorch, the network is developed using only basic Python libraries like NumPy. This approach demonstrates a deep understanding of how neural networks operate at a low level, including key processes such as forward propagation, backpropagation, and optimization.
 
-1 ### Dataset :
+### Dataset :
 
 The dataset used is the MNIST dataset, a benchmark dataset for image classification tasks. It consists of 60,000 training examples and 10,000 test examples, with each example being a grayscale image of a digit from 0 to 9, represented in a 28x28 pixel grid. To simplify the input, each image was flattened into a one-dimensional vector of 784 pixels.
 
@@ -13,7 +13,7 @@ Normalization: To ensure the neural network trains effectively, the pixel values
 One-Hot Encoding: The labels (digits 0-9) were transformed into a binary format where each digit is represented by a vector of length 10, where one element is set to 1 (indicating the digit) and the others are set to 0.
 
 
-2- ### **Neural Network Architecture** : 
+### **Neural Network Architecture** : 
 
 The neural network architecture implemented in this project consists of:
 
