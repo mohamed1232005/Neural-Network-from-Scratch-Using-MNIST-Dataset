@@ -41,3 +41,11 @@ After training, the model was evaluated on the test set. The test set contains e
 - **Accuracy:** The neural network achieved an accuracy of 89% on the test set. While this is a decent performance for a neural network built from scratch, there is still room for improvement through potential enhancements like tuning hyperparameters, adjusting the network architecture, or increasing the number of training epochs.
 - **Loss:** Over the course of the training process, the loss function decreased consistently, indicating that the model was learning effectively and improving its predictions.
 - **Confusion Matrix:** A confusion matrix was generated to provide a more detailed breakdown of the model’s performance. It highlights how often the model predicted each digit correctly and where it misclassified digits. This can help identify patterns in misclassifications and further guide optimization.
+
+
+
+
+
+
+
+This project demonstrates the core principles of how neural networks operate by building one from scratch, without using high-level frameworks. Through this implementation, we explored key concepts such as data normalization, activation functions (ReLU and softmax), backpropagation, and gradient descent optimization. The high accuracy achieved on the MNIST dataset validates the approach, and the confusion matrix provides insights into the network’s strengths and weaknesses in classifying certain digits.
