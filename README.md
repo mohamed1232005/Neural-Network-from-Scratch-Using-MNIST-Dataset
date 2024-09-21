@@ -37,7 +37,7 @@ After training, the model was evaluated on the test set. The test set contains e
 - **Accuracy**: The model achieved a high classification accuracy on the test set, which indicates that it learned to classify the digits correctly in most cases.
 - **Confusion Matrix**: A confusion matrix was generated to show how often the model predicted each digit correctly and where it made mistakes. This matrix is particularly useful for identifying digits the model struggles to classify.
 
-### **4- Results** :
-- **Accuracy: ** The neural network achieved an accuracy of 89% on the test set. While this is a decent performance for a neural network built from scratch, there is still room for improvement through potential enhancements like tuning hyperparameters, adjusting the network architecture, or increasing the number of training epochs.
-- **Loss: ** Over the course of the training process, the loss function decreased consistently, indicating that the model was learning effectively and improving its predictions.
-- **Confusion Matrix: ** A confusion matrix was generated to provide a more detailed breakdown of the model’s performance. It highlights how often the model predicted each digit correctly and where it misclassified digits. This can help identify patterns in misclassifications and further guide optimization.
+### **5- Results** :
+- **Accuracy:** The neural network achieved an accuracy of 89% on the test set. While this is a decent performance for a neural network built from scratch, there is still room for improvement through potential enhancements like tuning hyperparameters, adjusting the network architecture, or increasing the number of training epochs.
+- **Loss:** Over the course of the training process, the loss function decreased consistently, indicating that the model was learning effectively and improving its predictions.
+- **Confusion Matrix:** A confusion matrix was generated to provide a more detailed breakdown of the model’s performance. It highlights how often the model predicted each digit correctly and where it misclassified digits. This can help identify patterns in misclassifications and further guide optimization.
